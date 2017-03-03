@@ -1,0 +1,38 @@
+<!-- Background googleMaps -->
+<div id="map"></div>
+
+<!-- Contact -->
+<section id="contact" style="padding-bottom: 0;">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 "></div>
+                <div class="col-md-4 text-center">
+                    <h2 class="section-heading">Contact Me</h2>
+                </div>
+              <div class="col-md-4 "></div>
+            </div>
+
+             <div class="row">
+                <div class="col-md-4 "></div>
+                <div class="col-md-4 text-center" style="margin-top:20px; font-family:'Open Sans'; font-size:20px; font-weight:lighter">
+                +49 170 9372197
+                </br><a style="color:#3f3f3f" href="mailto:hello@surajitdutta.com">hello@surajitdutta.com</a>
+              </br></br>Klingenberg Straße 56</br>31139 Hildesheim</br>Germany</br></br></br>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 "></div>
+              <div class="col-md-4 text-center" style="margin-left:12px">
+                  <ul class="list-inline social-buttons">
+                      {% for network in site.social %}
+                      <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                      </li>&nbsp;&nbsp;&nbsp;
+                      {% endfor %}
+                  </ul>
+              </div>
+              <div class="col-md-4 "></div>
+          </div>
+        </div>
+    </section>
