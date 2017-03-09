@@ -140,5 +140,7 @@ google.maps.event.addDomListener(window, 'load', function() {
     title: 'I live here'
     });
   });
-});
+
 google.maps.event.trigger(map, 'resize');
+
+});
