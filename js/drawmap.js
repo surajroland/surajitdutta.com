@@ -1,6 +1,6 @@
   // Drawing googleMaps in the contact background
 var map = null;
-
+$(document).ready(function() {
 google.maps.event.addDomListener(window, 'load', function() {
 
     var style = [
@@ -139,7 +139,6 @@ google.maps.event.addDomListener(window, 'load', function() {
     map: map,
     title: 'I live here'
     });
-
+  });
 });
-
 google.maps.event.trigger(map, 'resize');
