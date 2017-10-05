@@ -112,10 +112,10 @@ aside {
 }
 
 aside h3 {
-    font: bold 12px Sans-Serif;
+    font-size: 25px
+    font-family: "Gotham-Bold";
     letter-spacing: 2px;
     text-transform: uppercase;
-    background: #369;
     color: #fff;
     padding: 5px 10px;
     margin: 0 0 10px 0;
@@ -124,7 +124,7 @@ aside h3 {
 
 /* Class name via Modernizr */
 .csstransforms aside {
-    border-left: 34px solid #369;
+    border-left: 34px solid #ccc;
     padding-left: 10px;
 }
 .csstransforms aside h3 {
@@ -459,7 +459,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 50px 0;
     }
 }
 
