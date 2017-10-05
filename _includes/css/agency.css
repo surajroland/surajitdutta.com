@@ -328,7 +328,6 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Gotham-Bold";
     font-size: 60px;
-    font-style: normal;
     line-height: 20px;
 }
 
@@ -360,9 +359,8 @@ header .container .row .to-remove {
     header .intro-text .intro-lead-in {
         margin-bottom: 50px;
         font-family: "Gotham-Bold";
-        font-size: 80px;
-        font-style: normal;
-        line-height: 40px;
+        font-size: 90px;
+        line-height: 60px;
     }
 
     header .intro-text .intro-heading {
