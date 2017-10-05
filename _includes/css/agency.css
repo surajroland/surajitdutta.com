@@ -327,7 +327,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Gotham-Bold";
-    font-size: 60px;
+    font-size: 30px;
     line-height: 20px;
 }
 
@@ -343,11 +343,10 @@ header .container .row .to-remove {
     display: none;
 }
 
-@media screen and (min-width:1024px) {
-
-    header .container .row .to-remove {
-        display: inline;
-    }
+@media screen and (min-width:320px) {
+  header .intro-text .intro-lead-in {
+      font-size: 50px;
+  }
 }
 
 @media screen and (min-width:768px) {
@@ -359,7 +358,7 @@ header .container .row .to-remove {
     header .intro-text .intro-lead-in {
         margin-bottom: 50px;
         font-family: "Gotham-Bold";
-        font-size: 90px;
+        font-size: 80px;
         line-height: 60px;
     }
 
@@ -369,6 +368,19 @@ header .container .row .to-remove {
         font-family: "Gotham-Light";
         font-size: 20px;
         line-height: 30px;
+    }
+}
+
+@media screen and (min-width:993px) {
+    header .container .row .to-remove {
+        display: inline;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    header .intro-text .intro-lead-in {
+        font-size: 90px;
     }
 }
 
