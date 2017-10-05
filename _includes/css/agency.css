@@ -104,6 +104,51 @@ h6 {
     font-weight: 700;
 }
 
+/* vertical header */
+aside {
+    display: block;
+    position: relative;
+    margin: 40px 0;
+}
+
+aside h3 {
+    font: bold 12px Sans-Serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #369;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 0 10px 0;
+    line-height: 24px;
+}
+
+/* Class name via Modernizr */
+.csstransforms aside {
+    border-left: 34px solid #369;
+    padding-left: 10px;
+}
+.csstransforms aside h3 {
+
+    /* Abs positioning makes it not take up vert space */
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* Border is the new background */
+    background: none;
+
+    /* Rotate from top left corner (not default) */
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin:    0 0;
+    -ms-transform-origin:     0 0;
+    -o-transform-origin:      0 0;
+
+    -webkit-transform: rotate(90deg);
+    -moz-transform:    rotate(90deg);
+    -ms-transform:     rotate(90deg);
+    -o-transform:      rotate(90deg);
+}
+
 .img-centered {
     margin: 0 auto;
 }
