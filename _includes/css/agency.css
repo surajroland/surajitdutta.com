@@ -1,4 +1,38 @@
 /*Main style file*/
+@font-face {
+    font-family: 'Gotham-Thin';
+    src: url('../../css/fonts/gotham/Gotham-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('../../css/fonts/gotham/Gotham-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Gotham-Thin-Italic';
+    src: url('../../css/fonts/gotham/Gotham-Thin-Italic.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Light-Italic';
+    src: url('../../css/fonts/gotham/Gotham-Light-Italic.otf');
+}
+
+@font-face {
+    font-family: 'Gotham-Regular';
+    src: url('../../css/fonts/gotham/Gotham-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('../../css/fonts/gotham/Gotham-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Gotham-Dark';
+    src: url('../../css/fonts/gotham/Gotham-Dark.ttf');
+}
 
 body {
     width: 100%;
@@ -135,7 +169,7 @@ fieldset[disabled] .btn-primary.active {
     padding: 20px 40px;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: "Open Sans", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans";
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -187,7 +221,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Open Sans", "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Open Sans";
     color: #{{ site.color.primary }};
 }
 
@@ -218,7 +252,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: "Open Sans", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans";
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -292,44 +326,48 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Open Sans", "Open Sans","Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 40px;
+    font-family: "Gotham-Bold";
+    font-size: 60px;
     font-style: normal;
-    font-weight: 700;
     line-height: 20px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: none;
-    font-family: "Open Sans", "Open Sans",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 40px;
+    font-family: "Gotham-Light";
+    font-size: 20px;
+    line-height: 30px;
 }
 
-@media(min-width:768px) {
+header .container .row .to-remove {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 50px;
-        font-family: "Open Sans", "Open Sans","Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 100px;
+        font-family: "Gotham-Bold";
+        font-size: 80px;
         font-style: normal;
-        font-weight: 700;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: none;
-        font-family: "Open Sans";
-        font-size: 25px;
-        font-weight: 300;
-        line-height: 40px;
+        font-family: "Gotham-Light";
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    header .container .row .to-remove {
+        display: inline;
     }
 }
 
@@ -355,7 +393,7 @@ section h2.section-subheading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Open Sans","Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans";
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
