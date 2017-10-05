@@ -112,14 +112,14 @@ aside {
 }
 
 aside h3 {
-    font-size: 25px;
+    font-size: 5px;
     font-family: "Gotham-bold";
     letter-spacing: 1px;
     text-transform: upppercase;
     color: #fff;
-    padding: 20px 10px;
+    padding: 5px 10px;
     margin: 0;
-    line-height: 24px;
+    line-height: 12px;
 }
 
 /* Class name via Modernizr */
@@ -146,6 +146,28 @@ aside h3 {
     -moz-transform:    rotate(90deg);
     -ms-transform:     rotate(90deg);
     -o-transform:      rotate(90deg);
+}
+
+@media screen and (min-width:320px) {
+    .csstransforms aside h3 {
+        font-size: 15px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .csstransforms aside h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width:1245px) {
+    .csstransforms aside h3 {
+        font-size: 25px;
+        padding: 20px 10px;
+        line-height: 24px;
+    }
 }
 
 .img-centered {
