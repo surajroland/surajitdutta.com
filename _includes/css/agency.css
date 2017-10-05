@@ -100,8 +100,8 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: "Open Sans", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Gotham-Regular";
+    letter-spacing: 5px;
 }
 
 /* vertical header */
@@ -112,20 +112,19 @@ aside {
 }
 
 aside h3 {
-    font-size: 25px
-    font-family: "Gotham-Bold";
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Gotham-bold";
+    letter-spacing: 1px;
+    text-transform: upppercase;
     color: #fff;
-    padding: 5px 10px;
-    margin: 0 0 10px 0;
+    padding: 20px 10px;
+    margin: 0;
     line-height: 24px;
 }
 
 /* Class name via Modernizr */
 .csstransforms aside {
-    border-left: 34px solid #ccc;
-    padding-left: 10px;
+    padding-left: 50px;
 }
 .csstransforms aside h3 {
 
@@ -531,7 +530,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Open Sans", "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans";
     font-size: 16px;
     font-style: italic;
 }
