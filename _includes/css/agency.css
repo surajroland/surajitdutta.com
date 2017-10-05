@@ -309,7 +309,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: right;
-    color: black;
+    color: #ccc;
     background-attachment: fixed;
     background-position: center center;
     background-repeat: none;
@@ -344,6 +344,13 @@ header .container .row .to-remove {
     display: none;
 }
 
+@media screen and (min-width:1024px) {
+
+    header .container .row .to-remove {
+        display: inline;
+    }
+}
+
 @media screen and (min-width:768px) {
     header .intro-text {
         padding-top: 200px;
@@ -364,10 +371,6 @@ header .container .row .to-remove {
         font-family: "Gotham-Light";
         font-size: 20px;
         line-height: 30px;
-    }
-
-    header .container .row .to-remove {
-        display: inline;
     }
 }
 
