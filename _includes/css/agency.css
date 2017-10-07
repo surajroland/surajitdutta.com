@@ -1075,6 +1075,8 @@ body {
   position: relative;
   text-align: center;
   line-height: 1.2;
+  font-family: "Gotham-Bold";
+  font-size: 15px;
 }
 
 .circle canvas {
@@ -1092,13 +1094,10 @@ body {
 }
 
 .circle strong i {
-  font-style: normal;
   font-size: 0.6em;
-  font-weight: normal;
 }
 
 .circle span {
   display: block;
-  color: #aaa;
   margin-top: 12px;
 }
