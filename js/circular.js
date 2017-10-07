@@ -6,7 +6,8 @@
     value: 0.1,
     animation: false,
     lineCap: 'round',
-    fill: {color: 'tomato'}
+    fill: {color: 'tomato'},
+    size: 80
   });
 
   $('.second.technical.circle').circleProgress({
@@ -14,7 +15,8 @@
     value: 0.2,
     animation: false,
     lineCap: 'round',
-    fill: {color: 'tomato'}
+    fill: {color: 'tomato'},
+    size: 80
   });
 
   $('.third.technical.circle').circleProgress({
@@ -22,7 +24,8 @@
     value: 0.3,
     animation: false,
     lineCap: 'round',
-    fill: {color: 'tomato'}
+    fill: {color: 'tomato'},
+    size: 80
   });
 
   $('.fourth.technical.circle').circleProgress({
@@ -30,7 +33,8 @@
     value: 0.4,
     animation: false,
     lineCap: 'round',
-    fill: {color: 'tomato'}
+    fill: {color: 'tomato'},
+    size: 80
   });
 
   $('.fifth.technical.circle').circleProgress({
@@ -38,7 +42,8 @@
     value: 0.5,
     animation: false,
     lineCap: 'round',
-    fill: {color: 'tomato'}
+    fill: {color: 'tomato'},
+    size: 80
   });
 
   $('.sixth.technical.circle').circleProgress({
@@ -46,7 +51,8 @@
     value: 0.6,
     animation: false,
     lineCap: 'round',
-    fill: {color: 'tomato'}
+    fill: {color: 'tomato'},
+    size: 80
   });
 
   $('.seventh.technical.circle').circleProgress({
@@ -54,7 +60,8 @@
     value: 0.7,
     animation: false,
     lineCap: 'round',
-    fill: {color: 'tomato'}
+    fill: {color: 'tomato'},
+    size: 80
   });
 
   $('.eighth.technical.circle').circleProgress({
@@ -62,7 +69,8 @@
     value: 0.8,
     animation: false,
     lineCap: 'round',
-    fill: {color: 'tomato'}
+    fill: {color: 'tomato'},
+    size: 80
   });
 
   $('.ninth.technical.circle').circleProgress({
@@ -70,7 +78,8 @@
     value: 0.9,
     animation: false,
     lineCap: 'round',
-    fill: {color: 'tomato'}
+    fill: {color: 'tomato'},
+    size: 80
   });
 
   $('.tenth.technical.circle').circleProgress({
@@ -78,7 +87,8 @@
     value: 1.0,
     animation: false,
     lineCap: 'round',
-    fill: {color: 'tomato'}
+    fill: {color: 'tomato'},
+    size: 80
   });
 
 
@@ -87,7 +97,8 @@
     value: 0.1,
     animation: false,
     lineCap: 'round',
-    fill: {color: '#555'}
+    fill: {color: '#555'},
+    size: 80
   });
 
   $('.second.nontechnical.circle').circleProgress({
@@ -95,7 +106,8 @@
     value: 0.2,
     animation: false,
     lineCap: 'round',
-    fill: {color: '#555'}
+    fill: {color: '#555'},
+    size: 80
   });
 
   $('.third.nontechnical.circle').circleProgress({
@@ -103,7 +115,8 @@
     value: 0.3,
     animation: false,
     lineCap: 'round',
-    fill: {color: '#555'}
+    fill: {color: '#555'},
+    size: 80
   });
 
   $('.fourth.nontechnical.circle').circleProgress({
@@ -111,7 +124,8 @@
     value: 0.4,
     animation: false,
     lineCap: 'round',
-    fill: {color: '#555'}
+    fill: {color: '#555'},
+    size: 80
   });
 
   $('.fifth.nontechnical.circle').circleProgress({
@@ -119,7 +133,8 @@
     value: 0.5,
     animation: false,
     lineCap: 'round',
-    fill: {color: '#555'}
+    fill: {color: '#555'},
+    size: 80
   });
 
   $('.sixth.nontechnical.circle').circleProgress({
@@ -127,7 +142,8 @@
     value: 0.6,
     animation: false,
     lineCap: 'round',
-    fill: {color: '#555'}
+    fill: {color: '#555'},
+    size: 80
   });
 
   $('.seventh.nontechnical.circle').circleProgress({
@@ -135,7 +151,8 @@
     value: 0.7,
     animation: false,
     lineCap: 'round',
-    fill: {color: '#555'}
+    fill: {color: '#555'},
+    size: 80
   });
 
   $('.eighth.nontechnical.circle').circleProgress({
@@ -143,7 +160,8 @@
     value: 0.8,
     animation: false,
     lineCap: 'round',
-    fill: {color: '#555'}
+    fill: {color: '#555'},
+    size: 80
   });
 
   $('.ninth.nontechnical.circle').circleProgress({
@@ -151,7 +169,8 @@
     value: 0.9,
     animation: false,
     lineCap: 'round',
-    fill: {color: '#555'}
+    fill: {color: '#555'},
+    size: 80
   });
 
   $('.tenth.nontechnical.circle').circleProgress({
@@ -159,7 +178,8 @@
     value: 1.0,
     animation: false,
     lineCap: 'round',
-    fill: {color: '#555'}
+    fill: {color: '#555'},
+    size: 80
   });
 
   // $('.second.circle').circleProgress({
