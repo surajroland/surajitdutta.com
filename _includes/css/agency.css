@@ -335,6 +335,13 @@ fieldset[disabled] .btn-xl.active {
     color: #ccc;
 }
 
+.navbar-default.navbar-shrink .nav li a {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
@@ -344,7 +351,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default.navbar-shrink .nav li a:hover,
 .navbar-default.navbar-shrink .nav li a:focus {
     outline: 0;
-    color: white;
+    color: #fff;
 }
 
 .navbar-default .navbar-nav>.active>a {
