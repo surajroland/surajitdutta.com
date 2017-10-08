@@ -330,16 +330,21 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: "Open Sans";
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #ccc;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #ccc;
+}
+
+.navbar-default.navbar-shrink .nav li a:hover,
+.navbar-default.navbar-shrink .nav li a:focus {
+    outline: 0;
+    color: white;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -378,6 +383,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #222;
+        color: white;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
