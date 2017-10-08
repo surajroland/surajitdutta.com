@@ -1,5 +1,7 @@
-<!-- About Section -->
-<section id="contact" class="csstransforms" style="padding-top: 10px; padding-bottom: 0;">
+<!-- Contact -->
+<div id="map"></div>
+
+<section id="contact" class="csstransforms" style="padding-top: 5%; padding-bottom: 0;">
   <aside class="container">
     <div class="row" style="margin-bottom: 20px;">
         <div class="col-lg-12 text-center">
@@ -10,75 +12,14 @@
         <div class="col-lg-6 text-right">
           <div class="row" style="margin-bottom: 40px;">
               <div class="col-lg-12 text-right">
-                <h2><span style="color: #ccc; font-family: Gotham-Light; font-size: 20px; letter-spacing: 15px;">Technical</h2>
 
               </div>
            </div>
         </div>
-        <div class="col-lg-6 text-left">
-          <div class="row" style="margin-bottom: 40px;">
-            <div class="col-lg-12 text-left">
-              <h2><span style="color: #ccc; font-family: Gotham-Light; font-size: 20px; letter-spacing: 15px;">Non-Technical</h2>
 
-              </div>
-            </div>
-           </div>
-        </div>
-    </div>
+     </div>
 
   </aside>
 </section >
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Background googleMaps -->
-<div id="map"></div>
-
-<!-- Contact -->
-<section style="padding-bottom: 0;">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4 "></div>
-                <div class="col-md-4 text-center">
-                    <h2 class="section-heading">Contact Me</h2>
-                </div>
-              <div class="col-md-4 "></div>
-            </div>
-
-             <div class="row">
-                <div class="col-md-4 "></div>
-                <div class="col-md-4 text-center" style="margin-top:20px; font-family:'Open Sans'; font-size:20px; font-weight:lighter">
-                +49 170 9372197
-                </br><a style="color:#3f3f3f" href="mailto:hello@surajitdutta.com">hello@surajitdutta.com</a>
-              </br></br>Klingenberg Straße 56</br>31139 Hildesheim</br>Germany</br></br></br>
-                </div>
-                <div class="col-md-4"></div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-4 "></div>
-              <div class="col-md-4 text-center" style="margin-left:12px">
-                  <ul class="list-inline social-buttons">
-                      {% for network in site.social %}
-                      <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                      </li>&nbsp;&nbsp;&nbsp;
-                      {% endfor %}
-                  </ul>
-              </div>
-              <div class="col-md-4 "></div>
-          </div>
-        </div>
-    </section>
+<script src="/js/drawmap.js"></script>
