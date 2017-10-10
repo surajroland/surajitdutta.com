@@ -1,5 +1,14 @@
 <!-- Contact -->
 <div id="map"></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoic3VyYWpyb2xhbmQiLCJhIjoiY2lqajlpd2RpMDA0OXZ4bTRyamNlc2EwMyJ9.Rsk4eJZA1ZASRkR1QWp6Cw';
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/mapbox/dark-v9', //hosted style id
+    center: [-77.38, 39], // starting position
+    zoom: 3 // starting zoom
+});
+</script>
 
 <section id="contact" class="csstransforms" style="padding-top: 5%; padding-bottom: 0;">
   <aside class="container">
@@ -21,5 +30,3 @@
 
   </aside>
 </section >
-
-<script src="/js/drawmap.js"></script>
