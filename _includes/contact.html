@@ -5,16 +5,18 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic3VyYWpyb2xhbmQiLCJhIjoiY2lqajlpd2RpMDA0OXZ4b
 var map = new mapboxgl.Map({
     container: 'map', // container id
     style: 'mapbox://styles/mapbox/dark-v9', //hosted style id
-    center: [-77.38, 39], // starting position
-    zoom: 3 // starting zoom
+    center: [52.124162, 9.911621], // starting position
+    zoom: 0// starting zoom
 });
+map.scrollZoom.disable();
+map.doubleClickZoom.disable();
 </script>
 
 <section id="contact" class="csstransforms" style="padding-top: 5%; padding-bottom: 0;">
   <aside class="container">
     <div class="row" style="margin-bottom: 20px;">
         <div class="col-lg-12 text-center">
-            <h2 class="section-subheading"><span style="color: #33ccff;">Con</span>tact</h2>
+            <h2 class="section-subheading"><span style="color: tomato;">Con</span><span style="color: #fff;">tact</span></h2>
         </div>
     </div>
     <div class="row">
