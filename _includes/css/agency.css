@@ -1414,3 +1414,19 @@ header,
   margin-left: 0;
   margin-bottom: -16px;
 }
+
+.marker {
+  background-image: url('mapbox-icon.png');
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  -webkit-animation:fade 0.5s infinite;
+  cursor: pointer;
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}

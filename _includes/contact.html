@@ -1,19 +1,6 @@
 <!-- Contact -->
 <div id="map"></div>
-<script>
-mapboxgl.accessToken = 'pk.eyJ1Ijoic3VyYWpyb2xhbmQiLCJhIjoiY2lqajlpd2RpMDA0OXZ4bTRyamNlc2EwMyJ9.Rsk4eJZA1ZASRkR1QWp6Cw';
-var map = new mapboxgl.Map({
-    container: 'map', // container id
-    style: 'mapbox://styles/mapbox/dark-v9', //hosted style id
-    center: [52.124162, 9.911621], // starting position
-    zoom: 0// starting zoom
-});
-map.scrollZoom.disable();
-map.doubleClickZoom.disable();
-map.dragPan.disable();
-map.dragRotate.disable();
-map.touchZoomRotate.disable();
-</script>
+<script type="text/javascript" src="js/drawmap.js"></script>
 
 <section id="contact" class="csstransforms" style="padding-top: 5%; padding-bottom: 0;">
   <aside class="container">
