@@ -1418,9 +1418,9 @@ header,
 .marker {
   background-image: url('mapbox-icon.png');
   background-size: cover;
-  width: 30px;
-  height: 30px;
-  -webkit-animation:fade 0.5s infinite;
+  width: 40px;
+  height: 40px;
+  -webkit-animation:fade 1s infinite;
   cursor: pointer;
 }
 @keyframes fade
