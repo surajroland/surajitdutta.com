@@ -1,37 +1,37 @@
 /*Main style file*/
 @font-face {
     font-family: 'Gotham-Thin';
-    src: url('../../css/fonts/gotham/Gotham-Thin.ttf');
+    src: url('../../fonts/gotham/Gotham-Thin.ttf');
 }
 
 @font-face {
     font-family: 'Gotham-Light';
-    src: url('../../css/fonts/gotham/Gotham-Light.ttf');
+    src: url('../../fonts/gotham/Gotham-Light.ttf');
 }
 
 @font-face {
     font-family: 'Gotham-Thin-Italic';
-    src: url('../../css/fonts/gotham/Gotham-Thin-Italic.otf');
+    src: url('../../fonts/gotham/Gotham-Thin-Italic.otf');
 }
 
 @font-face {
     font-family: 'Gotham-Light-Italic';
-    src: url('../../css/fonts/gotham/Gotham-Light-Italic.otf');
+    src: url('../../fonts/gotham/Gotham-Light-Italic.otf');
 }
 
 @font-face {
     font-family: 'Gotham-Regular';
-    src: url('../../css/fonts/gotham/Gotham-Regular.ttf');
+    src: url('../../fonts/gotham/Gotham-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Gotham-Bold';
-    src: url('../../css/fonts/gotham/Gotham-Bold.ttf');
+    src: url('../../fonts/gotham/Gotham-Bold.ttf');
 }
 
 @font-face {
     font-family: 'Gotham-Dark';
-    src: url('../../css/fonts/gotham/Gotham-Dark.ttf');
+    src: url('../../fonts/gotham/Gotham-Dark.ttf');
 }
 
 body {
